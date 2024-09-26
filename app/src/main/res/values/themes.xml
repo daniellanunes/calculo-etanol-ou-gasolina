@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AlcoolOuGasolina" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primarias -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secundarias -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Fundo -->
+        <item name="android:windowBackground">@color/fundo</item>
+
+        <!-- Barra de status -->
+        <item name="android:statusBarColor" tools:targerApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.AlcoolOuGasolina" parent="Base.Theme.AlcoolOuGasolina" />
+
+
+
+</resources>
